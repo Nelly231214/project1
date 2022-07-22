@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+body {
+     background-image: url("./img/imgb.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size: 100%;
+}
+.homs{
+    display: flex;
+    list-style-type: none;
+    background-size: 100%;
+    /* height: 60px; */
+    border: 1px solid #696969;
+    background-color:gainsboro;
+   font-size: 25px ;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 20px;
+}
+.nav{
+    margin:0 80px 0 0;
+    border: 2px solid;
+    background-color: gainsboro;
+    border-radius: 50px;
+
+    
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+.homs .nav a{
+    text-align: center;
+}
